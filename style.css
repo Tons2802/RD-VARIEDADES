@@ -34,3 +34,9 @@
     transform: translateY(0);
   }
 }
+.hero .btn {
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+  animation-delay: 1.2s;
+}
+
