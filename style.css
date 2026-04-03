@@ -141,3 +141,17 @@ footer {
     transform: translateY(0);
   }
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  transition: opacity 0.5s ease;
+}
+
+.grid.fade-out {
+  opacity: 0;
+}
+
+.grid.fade-in {
+  opacity: 1;
+}
