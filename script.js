@@ -56,5 +56,5 @@ function trocarProdutos() {
 window.addEventListener("load", () => {
   renderizarProdutos();
 
-  setInterval(trocarProdutos, 3500);
+  setInterval(trocarProdutos, 5000);
 });
