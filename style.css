@@ -68,3 +68,6 @@
     transform: translateY(0);
   }
 }
+.hero h2 {
+  color: red !important;
+}
