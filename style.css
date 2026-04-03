@@ -40,3 +40,31 @@
   animation-delay: 1.2s;
 }
 
+.hero h2 {
+  color: red !important;
+  animation: pulse 2s infinite ease-in-out !important;
+}
+
+.hero p {
+  color: blue !important;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards !important;
+  animation-delay: 0.8s;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
