@@ -7,7 +7,7 @@ const gruposDeProdutos = [
   [
     { nome: "LIMPA PEDRA 5L VALÊNCIA", codigo: "1035", imagem: "IMG/2.png" },
     { nome: "ESPONJA MÁGICA TIRA MANCHAS", codigo: "1013", imagem: "IMG/4.png" },
-    { nome: "LIXEIRA PEDESTAL", codigo: "1104", imagem: "IMG/6.png" }
+    { nome: "LIMPA TETO DE NYLON C/CABO", codigo: "1092", imagem: "IMG/7.png" }
   ]
 ];
 
