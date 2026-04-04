@@ -90,8 +90,13 @@ header img {
 
 .card img {
   width: 100%;
-  height: 150px;
-  object-fit: cover;
+  height: 180px;
+  object-fit: contain;
+  margin-botton: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* BOTÃO FIXO WHATSAPP */
@@ -143,7 +148,7 @@ footer {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   transition: opacity 0.5s ease;
 }
