@@ -76,12 +76,12 @@ header img {
 }
 
 .card {
-  background: #f2f2f2;
+  background: #ffffff;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 12px;
   text-align: center;
   transition: 0.3s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .card:hover {
@@ -94,6 +94,8 @@ header img {
   height: 180px;
   object-fit: contain;
   margin-botton: 10px;
+  border-radius: 8px;
+  padding: 10px;
 
   display: flex;
   flex-direction: column;
