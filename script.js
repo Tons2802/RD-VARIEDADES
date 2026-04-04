@@ -1,13 +1,13 @@
 const gruposDeProdutos = [
   [
-    { nome: "Produto 1", codigo: "001", imagem: "img/produto1.jpg" },
-    { nome: "Produto 2", codigo: "002", imagem: "img/produto2.jpg" },
-    { nome: "Produto 3", codigo: "003", imagem: "img/produto3.jpg" }
+    { nome: "SABÃO LÍQUIDO OMEX 5L VALÊNCIA", codigo: "1041", imagem: "IMG/1.png" },
+    { nome: "DESINFETANTE 5L VALÊNCIA BRISA", codigo: "1029", imagem: "IMG/3.png" },
+    { nome: "ENROLADOR DE MANGUEIRA DE CHÃO", codigo: "1102", imagem: "IMG/5.png" }
   ],
   [
-    { nome: "Produto 4", codigo: "004", imagem: "img/produto4.jpg" },
-    { nome: "Produto 5", codigo: "005", imagem: "img/produto5.jpg" },
-    { nome: "Produto 6", codigo: "006", imagem: "img/produto6.jpg" }
+    { nome: "LIMPA PEDRA 5L VALÊNCIA", codigo: "1035", imagem: "IMG/2.png" },
+    { nome: "ESPONJA MÁGICA TIRA MANCHAS", codigo: "1013", imagem: "IMG/4.png" },
+    { nome: "LIXEIRA PEDESTAL", codigo: "1104", imagem: "IMG/6.png" }
   ]
 ];
 
